@@ -292,6 +292,3 @@ def test_large_file_import_time(setup):
     import_time = end_time - start_time
     assert import_time < 60, f"Large file import took too long: {import_time} seconds"
     driver.quit()
-
-# Command to run all tests:
-# pytest csv_test.py
