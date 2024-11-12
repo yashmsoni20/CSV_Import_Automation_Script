@@ -55,8 +55,8 @@ def test_missing_optional_fields(setup, db_connection):
 
     
     expected_record = {
-        "mandatory_column1": "value1",  # Mandatory field with a value
-        "optional_column": None,  # Optional field left blank, expecting NULL in database
+        "mandatory_column1": "value1",
+        "optional_column": None,  
         "mandatory_column2": "value2"
     }
 
